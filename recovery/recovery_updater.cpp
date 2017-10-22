@@ -268,6 +268,5 @@ Value * VerifyTrustZoneFn(const char *name, State *state,
 }
 
 void Register_librecovery_updater_cm() {
-    RegisterFunction("cm.verify_baseband", VerifyBasebandFn);
     RegisterFunction("cm.verify_trustzone", VerifyTrustZoneFn);
 }
