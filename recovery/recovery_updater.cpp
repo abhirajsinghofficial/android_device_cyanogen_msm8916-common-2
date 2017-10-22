@@ -35,6 +35,7 @@
 
 #define ALPHABET_LEN 256
 
+#ifdef USES_BOOTDEVICE_PATH
 #define TZ_PART_PATH "/dev/block/platform/7824900.sdhci/by-name/tz"
 #endif
 #define TZ_VER_STR "QC_IMAGE_VERSION_STRING="
